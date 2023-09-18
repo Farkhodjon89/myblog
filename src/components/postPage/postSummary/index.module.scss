@@ -1,0 +1,9 @@
+.post_image {
+	position: relative !important;
+	width: 100%;
+	height: auto;
+	margin-top: 2em;
+	@media screen and (max-width: 512px) {
+		aspect-ratio: 1/1;
+	}
+}

@@ -1,0 +1,12 @@
+node_modules
+.next
+public
+build
+.turbo
+.husky
+.cache
+package-lock.json
+next-env.d.ts
+next.config.ts
+yarn.lock
+.github
