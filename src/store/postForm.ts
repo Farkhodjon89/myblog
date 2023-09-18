@@ -36,5 +36,6 @@ export const PostFormStore = types
 		resetForm() {
 			self.post.title = ''
 			self.post.body = ''
+			self.post.tags = JSON.parse('[]')
 		},
 	}))

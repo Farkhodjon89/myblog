@@ -1,8 +1,8 @@
-import { type ForwardedRef, forwardRef } from 'react'
+import { type ForwardedRef, forwardRef, memo } from 'react'
 import { Input, InputProps } from '@mui/base/Input'
 import { styled } from '@mui/system'
 
-export const CustomInput = forwardRef(function CustomInput(
+const CustomInputComponent = forwardRef(function CustomInput(
 	props: InputProps,
 	ref: ForwardedRef<HTMLDivElement>
 ) {
@@ -14,6 +14,8 @@ export const CustomInput = forwardRef(function CustomInput(
 		/>
 	)
 })
+
+export const CustomInput = memo(CustomInputComponent)
 
 const blue = {
 	100: '#DAECFF',

@@ -1,16 +1,16 @@
 .wrapper {
-  position: relative;
-  margin: 2.5em 0;
-  display: grid;
-  grid-template-columns: auto;
-  gap: 1.5em;
-  &__item {
-    & label {
-      display: block;
-      font-size: 14px;
-      font-weight: 500;
-      text-transform: uppercase;
-      margin: 8px 0;
-    }
-  }
+	position: relative;
+	margin: 2.5em 0;
+	display: grid;
+	grid-template-columns: auto;
+	gap: 1.5em;
+	&__item {
+		& label {
+			display: block;
+			font-size: 14px;
+			font-weight: 500;
+			text-transform: uppercase;
+			margin: 8px 0;
+		}
+	}
 }

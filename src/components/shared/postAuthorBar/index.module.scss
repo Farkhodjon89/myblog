@@ -1,24 +1,24 @@
 .user {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  margin: 1.5em 0;
-  width: fit-content;
-  &:hover {
-    opacity: 0.85;
-    cursor: pointer;
-  }
-  &__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    & p {
-      font-size: 14px;
-      margin: 0;
-      font-weight: 500;
-      line-height: 1;
-    }
-  }
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	margin: 1.5em 0;
+	width: fit-content;
+	&:hover {
+		opacity: 0.85;
+		cursor: pointer;
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: flex-start;
+		& p {
+			font-size: 14px;
+			margin: 0;
+			font-weight: 500;
+			line-height: 1;
+		}
+	}
 }
